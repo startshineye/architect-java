@@ -1,6 +1,7 @@
 package chapter01;
 
-import java.util.Arrays;
+import static chapter01.Utils.print;
+import static chapter01.Utils.swap;
 
 /**
  * @Author: yexinming
@@ -9,7 +10,7 @@ import java.util.Arrays;
  */
 public class BubbleSort {
     /**
-     * 冒泡排序:(每次都可能进行数据交换)
+     * 冒泡排序:(每次都可能进行数据交换-->每次都交换数据)
      * 注意:冒泡到最有边的会是最大的,所以下次的话,只需要从0开始到次位置
      *1、针对于每一个数据都需要进行冒泡到最大，
      * 2、每次从0开始,到n-i为止
@@ -28,11 +29,7 @@ public class BubbleSort {
         }
     }
 
-    private static void swap(int[] arr,int a, int b) {
-        int tmp = arr[a];
-        arr[a]= arr[b];
-        arr[b]= tmp;
-    }
+
 
     public static void main(String[] args) {
         int[] arr = {6,5,4,7,1,2};
@@ -43,12 +40,5 @@ public class BubbleSort {
         System.out.println("======排序后数据=====");
         print(arr);
     }
-    public static void print(int[]  arr){
-        if(null == arr || arr.length==0){
-            return;
-        }
-        for (int a:arr) {
-            System.out.println(a);
-        }
-    }
+
 }
