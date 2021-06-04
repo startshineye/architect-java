@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "secure.ignore",
+      "type": "com.ccos.gateway.config.IgnoreUrlsConfig",
+      "sourceType": "com.ccos.gateway.config.IgnoreUrlsConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "secure.ignore.urls",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.ccos.gateway.config.IgnoreUrlsConfig"
+    }
+  ],
+  "hints": []
+}

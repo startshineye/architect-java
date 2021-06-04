@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/architect-java.iml" filepath="$PROJECT_DIR$/.idea/architect-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud/ccos-auth/ccos-auth.iml" filepath="$PROJECT_DIR$/spring-cloud/ccos-auth/ccos-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud/ccos-demo/ccos-demo.iml" filepath="$PROJECT_DIR$/spring-cloud/ccos-demo/ccos-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud/ccos-gateway/ccos-gateway.iml" filepath="$PROJECT_DIR$/spring-cloud/ccos-gateway/ccos-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jvm/jvm.iml" filepath="$PROJECT_DIR$/jvm/jvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud/spring-cloud.iml" />
     </modules>
   </component>
 </project>

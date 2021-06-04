@@ -1,0 +1,15 @@
+package com.ccos.auth;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@EnableDiscoveryClient
+@SpringBootApplication
+public class CcosAuthApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(CcosAuthApplication.class, args);
+    }
+
+}
